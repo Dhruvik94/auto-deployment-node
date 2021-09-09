@@ -6,4 +6,4 @@ app.get("/user/test", (req, res) => {
 });
 
 app.listen(6000,console.log("Running on Port No 6000 ...."))
-console.log("Hell World!!!")
+console.log("Hell Testing!!!")
