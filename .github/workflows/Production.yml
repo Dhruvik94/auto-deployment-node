@@ -5,13 +5,13 @@ name: Production.js CI
 
 on:
   push:
-    branches: [ production ]
+    branches: [ production prod]
  
 
 jobs:
   build:
 
-    runs-on: self-hosted
+    runs-on: [self-hosted ]
 
     strategy:
       matrix:
