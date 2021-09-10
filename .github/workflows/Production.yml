@@ -5,7 +5,7 @@ name: Production.js CI
 
 on:
   push:
-    branches: [ production prod]
+    branches: [ production, prod]
  
 
 jobs:
