@@ -5,13 +5,13 @@ name: Testing.js CI
 
 on:
   push:
-    branches: [ testing,test ]
+    branches: [ testing ]
  
 
 jobs:
   build:
 
-    runs-on: self-hosted
+    runs-on: [self-hosted, test]
 
     strategy:
       matrix:
